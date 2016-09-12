@@ -18,3 +18,14 @@ export const saveState = (state) => {
     // Ignore write errors.
   }
 };
+
+//Usage
+// import throttle from 'lodash/throttle';
+//import { loadState, saveState } from './localStorage';
+//const persistedState = loadState();
+
+// store.subscribe(throttle(() => {
+//   saveState({
+//     todos: store.getState().todos,
+//   });
+// }, 1000));
